@@ -1,0 +1,21 @@
+.btn {
+  display: block;
+  width: 352px;
+  padding: 8px 0;
+  border-radius: 12px;
+  border: none;
+  background-color: #A7EE43;
+  color: #000;
+  font-weight: 600;
+
+  
+}
+
+.btn:hover {
+  background-color: #C8FF7B;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #A7EE43;
+}
