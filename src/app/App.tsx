@@ -19,7 +19,7 @@ function App() {
           <Button />
         </div>
       </section>
-      <hr></hr>
+
       <Table />
     </div>
   );

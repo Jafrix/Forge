@@ -47,11 +47,5 @@ body {
   gap: 16px;
 }
 
-hr {
-  border: none; 
-  height: 1px; 
-  background-color: #ffffff25; 
-  width: 100%; 
-  margin: 20px auto; 
-}
+
 

@@ -1,19 +1,97 @@
 .tableBlock {
+  width: 1200px;
+  padding-bottom: 100px;
+}
 
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ffffff25;
+  width: 100%;
+  margin: 20px auto;
 }
 
 h2 {
-  font-size: 120px;
-  color: #FFFFFF;
+  font-size: 52px;
+  color: #ffffff;
   text-align: center;
 }
 
 p {
   font-size: 32px;
-  color: #95A1AE;
+  color: #95a1ae;
   text-align: center;
 }
 
-.table {
-    background-color: #FFFFFF;
+.tableContainer {
+  max-width: 100%;
+  max-height: 400px;
+  overflow-x: auto;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: transparent;
+  border: transparent;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* background-color: #ffffff; */
+  padding: 10px;
+  
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa;
+  z-index: 2;
+  
+}
+
+th,
+td {
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+  text-align: left;
+  background-color: #122030;
+  color: #fff;
+  
+}
+th {
+  padding: 16px 8px;
+  text-align: left;
+}
+td {
+  
+  /* border-top: none;
+  border-left: none;
+  border-bottom: #fff; */
+  /* border-radius: none; */
+}
+
+th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  color: #000;
+  
+}
+
+.tableContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.tableContainer::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+  background: #7a7a7a;
+  border-radius: 15px;
+}
+
+.tableContainer::-webkit-scrollbar-thumb:hover {
+  background: #d9d9d9;
 }
