@@ -1,3 +1,3 @@
-# React = TypeScript = Vite project
+# React / TypeScript / Vite project
 
-F.O.R.G.E.
+
